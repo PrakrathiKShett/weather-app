@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-container {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+  color: #fff;
+  width: 360px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.city-input {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.search-btn {
+  padding: 10px 15px;
+  margin-left: 8px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #1976d2;
+}
+
+.weather-info {
+  margin-top: 15px;
+}
+
+.city {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.temp {
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.condition {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.details {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.subtitle {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.default-cities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.city-card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.city-card:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.city-temp {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.city-condition {
+  font-size: 14px;
+  text-transform: capitalize;
+}
